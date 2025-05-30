@@ -102,3 +102,17 @@ color: white;
 p{
   margin-bottom: 10px;
 }
+/* where */
+.where{
+  width: 500px;
+   position:absolute;
+  top: 270px;
+  left: 225px;
+
+}
+.localisation{
+  max-width: 500px;
+  padding-top: 200px;
+  margin: auto;
+  
+}
