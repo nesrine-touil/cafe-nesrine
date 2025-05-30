@@ -22,6 +22,22 @@ a{
 .active{
   background: #444;
 }
+.btn{
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color:white;
+  color: #111;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.btn:hover{
+  background-color: #222;
+  color: white;
+}
 /* header */
 .header{
   background:#333;
@@ -53,4 +69,36 @@ color: white;
 .header nav ul li a:hover{
   background:#444;
   
+}
+/* vp */
+.vp{
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center/cover;
+
+}
+.vp-content{
+  max-width: 500px;
+  padding-top: 170px;
+  color: white;  
+  margin: auto;
+  text-align:center;
+
+}
+.vp-content h1{
+  font-size: 50px;
+  
+}
+.separator{
+  height: 10px;
+  width: 100px;
+  margin:20px  auto;
+  background-color: #111;
+}
+.vp-content p{
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+p{
+  margin-bottom: 10px;
 }
