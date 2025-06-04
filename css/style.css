@@ -32,6 +32,7 @@ a{
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
   
 }
 .btn:hover{
@@ -102,17 +103,68 @@ color: white;
 p{
   margin-bottom: 10px;
 }
-/* where */
-.where{
-  width: 500px;
-   position:absolute;
-  top: 270px;
-  left: 225px;
+
+.features{
+  overflow: auto;
+  padding: 100px 0;
+  text-align: center;
+
 
 }
-.localisation{
-  max-width: 500px;
-  padding-top: 200px;
+.feature{
+  float: left;
+  width: 50%;
+
+}
+.person {
+  height: 400px;
+  background: url(../images/cafe3.jpg) center center/ cover;
+}
+.reservation {
+  padding: 100px 0;
+  text-align: center;
+}
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+
+/* where */
+.chip {
+  display: inline-block;
+  width: 33px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+.chip-purple{
+  background: #9e0c71;
+}
+.chip-brown{
+  background: #6c491d;
+}
+.where {
+  padding: 180px 0 100px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+.where-img {
+  float: left;
+  width: 45%;
+}
+.where-text {
+  float: right;
+  width: 50%;
+}
+.container {
+  max-width: 1000px;
+  display: block;
   margin: auto;
-  
 }
